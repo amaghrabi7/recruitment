@@ -62,9 +62,9 @@ def main():
     cv = get_user_cv(skills)
     desired_skill = skills[2]
     if check_acceptance(cv, desired_skill):
-        print("Accepted")
+        print("accepted")
     else:
-        print("Rejected")
+        print("rejected")
     
    
 
