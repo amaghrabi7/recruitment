@@ -25,7 +25,7 @@ def get_user_skills(skills):
     user_skills = []
     skills = get_skills()
     show_skills(skills)
-    skill1 = int(input("Choose a skill from above by entering its number: "))
+    skill1 = int(input("\nChoose a skill from above by entering its number: "))
     index1 = skill1 -1
     user_skills.append(skills[index1])
     skill2 = int(input("Choose another skill from above by entering its number: "))
