@@ -10,11 +10,9 @@ def get_skills():
 # It takes the list of skills as an argument and prints them numbered
 # This function doesn't return anything
 def show_skills(skills):
-    print("\nSkills")
-    num = 0
-    for skill in skills:
-        print(f"{num+1}. {skill}")
-        num += +1
+    print("\nSkills:")
+    for index, skill in enumerate(skills, 1):
+        print(f"{index}. {skill}")
 
 
 # Shows the available skills and have user pick from them two skills
