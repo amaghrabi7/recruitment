@@ -59,9 +59,9 @@ def main():
     cv = get_user_cv(skills)
     desired_skill = skills[2]
     if check_acceptance(cv, desired_skill):
-        print("accepted")
+        print(f"You've been accepted, {cv['name']}!")
     else:
-        print("rejected")
+        print("Sorry you've been rejected.")
     
    
 
